@@ -3,12 +3,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        int na_schetu = 700;
-        int popolnenie = 200;
-        int balans = na_schetu + popolnenie;
+        int score = 700;
+        int replenishment = 200;
+        int balance = score + replenishment;
 
         int bonus;
-        if (balans > 1000) {
+        if (balance > 1000) {
             bonus = 100;
         } else {
             bonus = 0;
